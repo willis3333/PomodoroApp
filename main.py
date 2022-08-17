@@ -31,7 +31,7 @@ image_canvas.grid(column=2, row=2)
 pomodoro_minutes = WORK_MIN
 timer_round = 1
 timer_text = f'{pomodoro_minutes}:00'
-timer = image_canvas.create_text(100, 130, text=timer_text, fill='white', font=(FONT_NAME, 35, "bold"))
+timer = image_canvas.create_text(130, 130, text=timer_text, fill='white', font=(FONT_NAME, 35, "bold"))
 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
